@@ -33,7 +33,8 @@ const packageJson = require('../package.json');
 
 const isWindows = os.platform() === 'win32';
 
-const APP_URL = process.env.APP_URL || 'https://app.httptoolkit.tech';
+// intari hack
+const APP_URL = process.env.APP_URL || 'https://httptoolkit-app.viorsan.com';
 const AUTH_TOKEN = uuid();
 const DESKTOP_VERSION = packageJson.version;
 const BUNDLED_SERVER_VERSION = packageJson.config['httptoolkit-server-version'];
@@ -53,7 +54,8 @@ let windows: Electron.BrowserWindow[] = [];
 
 let server: ChildProcess | null = null;
 
-app.commandLine.appendSwitch('ignore-connections-limit', 'app.httptoolkit.tech');
+// intari hack
+app.commandLine.appendSwitch('ignore-connections-limit', 'httptoolkit-app.viorsan.com');
 app.commandLine.appendSwitch('disable-renderer-backgrounding');
 app.commandLine.appendSwitch('js-flags', '--expose-gc'); // Expose window.gc in the UI
 
@@ -65,7 +67,7 @@ const createWindow = (logStream: WriteStream) => {
     });
 
     const window = new BrowserWindow({
-        title: 'HTTP Toolkit',
+        title: 'HTTP Toolkit (Intari\'s edition)',
         backgroundColor: '#d8e2e6',
 
         minWidth: 1024,

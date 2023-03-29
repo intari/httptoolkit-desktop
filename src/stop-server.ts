@@ -47,7 +47,7 @@ function softShutdown(token: string) {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
-                'origin': 'https://app.httptoolkit.tech',
+                'origin': 'https://httptoolkit-app.viorsan.com',
                 'authorization': `Bearer ${token}`
             }
         });

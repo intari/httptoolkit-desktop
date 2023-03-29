@@ -72,7 +72,7 @@
       ],
       "artifactName": "HttpToolkit-${os}-${arch}-${version}.${ext}",
       "icon": "./src/icons/icon.ico",
-      "forceCodeSigning": true
+      "forceCodeSigning": false
     },
     "nsis": {
       "installerIcon": "./src/icons/icon.ico",
@@ -91,7 +91,7 @@
       "icon": "./src/icons/icon.svg",
       "maintainer": "contact@httptoolkit.tech",
       "desktop": {
-        "Name": "HTTP Toolkit",
+        "Name": "HTTP Toolkit (V Mod)",
         "Comment": "HTTP(S) debugging, development & testing tool",
         "Categories": "Development;Network",
         "StartupNotify": true
