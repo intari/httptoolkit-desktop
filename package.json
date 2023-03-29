@@ -1,7 +1,7 @@
 {
   "name": "httptoolkit-desktop",
   "productName": "HTTP Toolkit",
-  "version": "1.12.3",
+  "version": "1984.1.12.4",
   "homepage": "https://httptoolkit.tech",
   "private": true,
   "description": "HTTP(S) debugging, development & testing tool",
@@ -21,7 +21,7 @@
   "author": "Tim Perry",
   "license": "AGPL-3.0-or-later",
   "config": {
-    "httptoolkit-server-version": "1.12.3"
+    "httptoolkit-server-version": "1984.1.12.4"
   },
   "build": {
     "appId": "tech.httptoolkit.desktop",
@@ -135,7 +135,7 @@
   "devDependencies": {
     "@types/electron-window-state": "^2.0.33",
     "@types/lodash": "^4.14.149",
-    "@types/node": "^15.12.0",
+    "@types/node": "^15.14.9",
     "@types/node-fetch": "^2.1.4",
     "@types/rimraf": "^3.0.0",
     "@types/semver": "^7.3.4",
@@ -156,6 +156,6 @@
     "tsc-watch": "^4.2.9",
     "tslib": "^1.14.1",
     "tslint": "^5.20.1",
-    "typescript": "^3.8.2"
+    "typescript": "^3.9.10"
   }
 }
