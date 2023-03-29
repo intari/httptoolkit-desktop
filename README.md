@@ -7,7 +7,7 @@ intari
 
 Original README.md below:
 
-HTTP Toolkit Desktop [![Build Status](https://github.com/httptoolkit/httptoolkit-desktop/workflows/CI/badge.svg)](https://github.com/httptoolkit/httptoolkit-desktop/actions)
+HTTP Toolkit Desktop [![Build Status](https://github.com/intari/httptoolkit-desktop/workflows/CI/badge.svg)](https://github.com/intari/httptoolkit-desktop/actions)
 ===================
 
 This repo contains the desktop build setup for [HTTP Toolkit](https://httptoolkit.tech), a beautiful, cross-platform & open-source HTTP(S) debugging proxy, analyzer & client.
